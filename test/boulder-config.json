@@ -164,7 +164,7 @@
   },
 
   "common": {
-    "baseURL": "http://localhost:4000",
+    "baseURL": "http://devpaul.xyz",
     "issuerCert": "test/test-ca.pem",
     "maxKeySize": 4096,
     "dnsResolver": "127.0.0.1:8053",
