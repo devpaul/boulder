@@ -48,6 +48,9 @@ ENV LETSENCRYPT_PATH /letsencrypt
 # Copy in the Boulder sources
 COPY . /go/src/github.com/letsencrypt/boulder
 
+# ADD DEPENDENCIES
+RUN go get bitbucket.org/liamstask/goose/cmd/goose
+
 # Build Boulder
 RUN go install \
   github.com/letsencrypt/boulder/cmd/activity-monitor \
