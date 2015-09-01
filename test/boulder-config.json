@@ -175,5 +175,5 @@
     "dbConnect": "mysql+tcp://boulder@localhost:3306/boulder_test"
   },
 
-  "subscriberAgreementURL": "http://localhost:4001/terms/v1"
+  "subscriberAgreementURL": "http://devpaul.com"
 }
